@@ -1,4 +1,12 @@
+import Stunda from "./Stunda";
 function Diena(){
-    return <p>green</p>;
+    return(
+        <>
+            <div>
+                <Stunda/>
+            </div>
+        </>
+    )
+
 }
 export default Diena;
