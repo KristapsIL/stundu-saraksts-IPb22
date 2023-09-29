@@ -1,10 +1,22 @@
 import Diena from './Diena';
-import Stunda from './Stunda';
+
 function App() {
+  const pirmdienasStundas = [
+    "Sports",
+    "Dabaszinības",
+    "Vēsture",
+    "Krievu valoda"
+]
+const otrdienasStundas = [
+  "Sports",
+  "Dabaszinības",
+  "Vēsture",
+  "Krievu valoda"
+]
   return( 
   <>
   <div>
-    <Diena/>
+      <Diena diena="Pirmdiena" stundas={pirmdienasStundas}/>
   </div>
   </>
   );

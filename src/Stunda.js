@@ -1,10 +1,8 @@
-function Stunda(){
+function Stunda(props){
     return (
         <>
-        <ul>
-            <li>Programmēšana</li>
-            <li>Programmēšana</li>
-        </ul>
+    <li>{props.stunda}</li>
+
     </>
     )
 }
