@@ -8,15 +8,16 @@ function App() {
     "Krievu valoda"
 ]
 const otrdienasStundas = [
-  "Sports",
+  "Math",
   "Dabaszinības",
-  "Vēsture",
-  "Krievu valoda"
+  "dator sistemas",
+  "Meth"
 ]
   return( 
   <>
   <div>
       <Diena diena="Pirmdiena" stundas={pirmdienasStundas}/>
+      <Diena diena="Otrdiena" stundas={otrdienasStundas}/>
   </div>
   </>
   );

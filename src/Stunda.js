@@ -1,7 +1,7 @@
 function Stunda(props){
     return (
         <>
-    <li>{props.stunda}</li>
+    <li>{props.nosaukums}</li>
 
     </>
     )
