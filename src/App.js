@@ -1,18 +1,19 @@
 import Diena from './Diena';
 
 function App() {
-  const pirmdienasStundas = [
-    "Sports",
+  const visasStundas = {
+    Pirmdiena:[
+      "Sports",
     "Dabaszinības",
     "Vēsture",
     "Krievu valoda"
-]
-const otrdienasStundas = [
-  "Math",
-  "Dabaszinības",
-  "dator sistemas",
-  "Meth"
-]
+    ],
+    Otrdiena:[
+      "Math",
+      "Dabaszinības",
+      "dator sistemas",
+    ]
+  }
   return( 
   <>
   <div>
